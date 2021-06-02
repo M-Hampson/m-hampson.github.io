@@ -1,2 +1,2 @@
 # m-hampson.github.io
-A site for my projects,
+A site for my projects.
