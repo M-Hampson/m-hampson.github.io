@@ -1,0 +1,106 @@
+
+body {
+    background-image:url(My\ Post.jpg);
+    font-family: forma-djr-deck,sans-serif;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: small;
+    text-align: center;
+}
+ul{
+    list-style: none;
+}
+
+h1 {     
+    font-size:50px;
+    margin-left:auto;
+    margin-right:auto;
+    letter-spacing:18px; 
+    padding: 10px;
+    border-bottom: 1px solid #f1f1f1;
+    font-weight:350;
+    width:50%;
+    overflow:auto;
+}
+
+input, textarea {
+    padding:5px;
+    width: 30%;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5px;
+    width:90%;
+}
+label{
+    color:rgb(68, 63, 68);
+    font-variant: small-caps;
+    text-align:center;
+    font-weight:lighter;
+}
+div {
+    border: 1px solid rgb(255, 255, 255);
+    font-weight: lighter;
+    margin-top: 5%;
+    margin-left:auto;
+    margin-right:auto;
+    width:50%;
+    letter-spacing: 15px; 
+    padding: 10px;
+    letter-spacing: 3px;  
+}
+
+h3{
+    font-size:large;
+}
+.range{
+    width: 50%;
+}
+.output{
+    width: 10%;
+}
+.reviewBox{
+    float: right;
+    margin-right:24%;
+    text-align: left;
+    font-variant: normal;
+    font-weight:400; 
+    width: 50%;
+    overflow: hidden;
+}
+.signup{
+    float:right;
+}
+.sort{
+    width:fit-content;
+}
+.floatLeft{
+    font-size-adjust: smaller;
+    float: left;
+    margin-left:5%;
+}
+.small{
+    font-size:8px;
+    font-style:italic;
+    text-align:center;
+}
+.medium{
+    font-size:30px;
+    font-weight: 350;
+    font-style:italic;
+    text-align:center;
+    letter-spacing: 13px;
+    border:none;
+    margin-bottom: 1%;
+}
+.menu {
+    float:left;
+    width: 15%;
+}
+
+.menuitem {
+    text-align:left;
+    padding: 8px;
+    margin-top: 7px;
+    border-bottom: 1px solid #f1f1f1;
+}
