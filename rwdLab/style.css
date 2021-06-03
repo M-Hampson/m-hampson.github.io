@@ -1,0 +1,62 @@
+
+    * {
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: 200;
+    }
+    .flow{
+        overflow: auto;
+    }
+    .head{
+        padding:12%;
+        color: rgb(43, 38, 32);
+        font-variant: petite-caps;
+        letter-spacing: 17px;
+        font-size: 110%;
+        background-image: url(hampson_photo.png);
+        
+    }
+    .menu {
+        float: left;
+        width: 15%;
+    }
+    .menuitem {
+      padding: 8px;
+      margin-top: 7px;
+      border-bottom: 1px solid #f1f1f1;
+    }
+    .main {
+      float: left;
+      width: 50%;
+      padding: 20px;
+      overflow: hidden;
+    }
+    .right {
+      background-color: rgb(182, 250, 203);
+      float: right;
+      width: 30%;
+      padding: 10px 15px;
+      margin-top: 7%;
+    }
+    .small {
+      font-size: 10px;
+      font-style: italic;
+    }
+    
+    @media only screen and (max-width:800px) {
+      /* For tablets: */
+      .main {
+        width: 80%;
+        padding: 0;
+      }
+      .right {
+        width: 100%;
+      }
+    }
+    @media only screen and (max-width:500px) {
+      /* For mobile phones: */
+      .menu, .main, .right {
+        width: 100%;
+      }
+    }
+    
