@@ -1,0 +1,70 @@
+body {
+    background-color:#f1e8db;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    line-height: .4in;
+    letter-spacing: 2px;
+    font-size: 15px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+#logo{
+    width:100%;
+}
+h1,h2,h3 {
+    font-size: 20px;
+    font-weight: 100;
+    font-variant: petite-caps;
+    line-height: 15px;
+    letter-spacing: 3px;
+}
+p {
+    font-size: smaller;
+    font-style:italic;
+
+}
+#wrap {
+    margin-top: 1in;
+    margin-bottom: 1in;
+    margin-left: 2in;
+    margin-right: 2in;
+}
+table {
+    font-size: 17px;
+    font-weight: 100;
+    width:100%;
+    column-width: 10px;
+}
+td {
+    padding: 5px; 
+    text-align: center;
+    color: rgb(4, 11, 19);
+    border: .5px solid black;
+}
+td:hover {
+    background-color: rgb(197, 165, 165);
+}
+#message {
+    display: none;
+    font-variant-caps: petite-caps;
+    font-style: italic;
+    text-align: center;
+    color: rgb(41, 34, 34);
+    font-size: larger;
+    height: 15%;
+    background-color: blanchedalmond ;
+    border: double;
+}
+
+.pic:hover  {
+    position:relative;
+    width:800px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+        
+
+

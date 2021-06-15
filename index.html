@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <script src="jquery.js"></script>
+    <title>Hampson Photography</title>
+</head>
+
+<body id="wrap">
+    <img id="logo" src="logo.png" title="logo" alt="Photography">
+<div>
+    <h1>Real Estate Photographer Serving the Philadelphia Region</h1>
+
+        <img src="me.jpeg" class="pic" height="100" width="100" alt="photo"/> 
+        <img src="hampson_photo.png" class="pic" height="100" width="100" alt="photo"/> 
+        <img src="kitchen.jpg" class="pic" height="100" width="100" alt="photo"/> 
+        <img src="kitchen2.jpg" class="pic" height="100" width="100" alt="photo"/> 
+        <img src="deck.jpg" class="pic" height="100" width="100" alt="photo"/> 
+        <img src="chairs.jpg" class="pic" height="100" width="100" alt="photo"/> 
+        <img src="roofdeck.jpg" class="pic" height="100" width="100" alt="photo"/>
+        <img src="office.jpg" class="pic" height="100" width="100" alt="photo"/>  
+        <p>Hover over an image ro resize</p>
+
+    <h3>Professional & Affordable Photography Services</h3>
+
+        <ul>
+            <li>Certified Small Business</li>
+            <li>No Job Too Small</li>
+            <li>Expedited Turn-Arounds</li>
+            <li>Committed to Customer Satisfaction</li>
+        </ul>
+
+
+        <h3>Customer Information</h3>
+            <h4>We'll gather some of the basics and then generate your photo appraisal form.</h4>
+                
+                <form id="customerInfo" >
+                    <ul>
+                    <li><label for="name">Name*</label>
+                        <input type="text" name="name" id="name" placeholder="First and Last Name, i.e. 'John Smith'" class="box" required></li>
+                    <li><label for ="address">Address</label>
+                        <input name="street-address" id="address" placeholder="123 Main St"></li>
+                    <li><label for="zip">Zip Code*</label> 
+                        <input id="zip" name="zip" type="text" pattern="[0-9]*" placeholder="55555" required></li>
+                    <li><label for="phone">Phone*</label>
+                        <input type="tel" name="phone" id="phone" placeholder="xxx-xxx-xxxx" maxlength="12" required></li>
+                    <li><label for="email">Email*</label>
+                        <input type="email" name="email" id="email" placeholder="your.email.address@____.com" class="box" required></li>
+                    </ul>
+                     <input type="Submit" value="Submit" id="submitCust"> <input type="Reset" value="Reset" id="resetCust"/>
+                </form>
+
+        <div id="message">
+            <p id="hey"> </p> 
+        </div>
+</div>
+
+<div id="menu"> 
+    <form id="update">
+        <table>
+            <tr>
+            <td colspan="2">Job Appraisal Form</td>
+            </tr>
+            <tr>
+                <td><label>Property Type:</label></td>
+                <td>
+                  <input type="radio" name="propertyType" value="Residential"  id="Residential" required />Residential
+                  <input type="radio" name="propertyType" value="Commercial" id="Commercial" required />Commercial
+                  <input type="radio" name="propertyType" value="MultiUnit" id="MultiUnit" required />Multi-Unit
+                </td>
+            </tr>
+            <tr>
+                <td><label>Location Currently Occupied?</label></td>
+                <td>
+                    <label for="Yes">Yes</label>
+                    <input type="checkbox" name="occupied" id="Yes" value="Yes">
+                    <label for="No">No</label>
+                    <input type="checkbox" name="occupied" id="No" value="No">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="rooms">Number of Rooms: </label></td>
+                <td><input type="number" id="rooms" name="rooms" min="1" max="30">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><input type="Submit" value="Submit"/><input type="Reset" value="Reset" id="reset"/></td>
+            </tr>
+        </table>
+    </form>
+        <table>
+            <tr><td colspan="2">Your Estimate of Service</td></tr>
+            <tr>
+                <td> <label>Property Type:</label> </td>
+                <td><label id="propertyTypeChoice"> </label></td>
+            </tr>
+            <tr>
+                <td><label>Rooms:</label> </td>
+                <td><label id="roomsChoice"></label> </td>  
+            </tr>
+           
+            <tr>
+                <td><label>Occupied:</label></td>
+                <td><label id="occupiedChoice"> </label></td>
+            </tr>
+            <tr>
+                <td><label>Projected Cost:</label></td>
+                <td><label id="costChoice"></label></td>
+            </tr>
+        </table>
+</div>
+
+<script src="script.js"></script>
+</body>
+
+</html>
